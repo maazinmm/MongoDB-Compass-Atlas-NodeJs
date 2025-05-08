@@ -9,6 +9,7 @@ A comprehensive guide on how to install and set up MongoDB (Compass), and connec
 
 When it is done downloading, go ahead and open the file to start the installation
 
+
  
 From here click “Next” 
  
