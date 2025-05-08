@@ -156,14 +156,20 @@ Looks like this:
 ![image](https://github.com/user-attachments/assets/b5b11564-4bc9-4131-a875-d4406117bef7)
 
 Make sure to replace 'your_connection_string_here' with your real connection string from Atlas (don't forget to fill in your password).
-4.	In the terminal, run node insert.js
-  
-5.	Open Compass and reload to see new changes
+3.	In the terminal, run node insert.js
+
+![image](https://github.com/user-attachments/assets/13237df0-8373-4e74-9ec9-e2805b13febd)
+
+4.	Open Compass and reload to see new changes
 In Compass, go to View > Reload
 You might need to click on connect, which appear on top of the cluster address on the left side pane. If it does not appear to reconnect and you can see your new testDB then you are good.
- 
+
+![image](https://github.com/user-attachments/assets/20e65239-b3ae-4386-a845-81b7393f8b54)
+
 Refresh compass to see new changes
- 
+
+![image](https://github.com/user-attachments/assets/e0db08b6-e862-4ec2-a732-cf5a188a0087)
+
 Click on testDB to see the new document and collection you just created with the nodejs code.
 What the nodejs code does:
 It connects to your Atlas instance.
@@ -171,5 +177,5 @@ Creates a function that uses the connection and creates;
 A database named testDB
 A collection named users 
 Inserts data (name, age, email) into the collection.
-TRIAL
-CREATE A DATABASE, A COLLECTION, AND INSERT DATA INTO THE COLLECTION USING COMPASS.
+## TRIAL
+### CREATE A DATABASE, A COLLECTION, AND INSERT DATA INTO THE COLLECTION USING COMPASS.
